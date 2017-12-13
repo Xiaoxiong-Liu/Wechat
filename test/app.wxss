@@ -7,4 +7,5 @@
   justify-content: space-between;
   padding: 200rpx 0;
   box-sizing: border-box;
+  background-image: url('https://wallpaperlayer.com/img/2015/9/warm-wallpaper-hd-2526-2704-hd-wallpapers.jpg')
 } 

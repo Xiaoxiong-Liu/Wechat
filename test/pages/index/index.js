@@ -14,12 +14,17 @@ Page({
 //点击函数测试
 clickMe:function(){
   this.setData({motto: "No!"})
+  wx.showToast({
+    title:"点击成功！",
+    icon:"sucess"
+    })
 },
 
 //Jump
 jump:function(){
   console.log('jump is invork...')
   wx.navigateTo({url:'../test/test'})
+  console.log('jump is invork over...')
 },
 //************************** 
 

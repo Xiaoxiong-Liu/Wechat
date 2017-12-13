@@ -9,5 +9,21 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "Left"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "Middle"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "Right"
+      }
+    ]
   }
 }
